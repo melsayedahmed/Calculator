@@ -1,0 +1,76 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+table{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+.label{
+     border-radius: 20px;
+     position: relative;
+     width: 197px;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+    background: #333;
+   }
+   .main{
+    background: #ccc;
+    text-align: center;
+    width: 400px;
+    margin: 80px auto;
+    padding: 30px;
+   }
+   form{
+    padding: 0 5px;
+    margin-bottom: 15px;
+   }
+   .textview{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    pointer-events: none;
+   }
+   .clearfix:before, .clearfix:after{
+    content: '';
+    display: table;
+    clear: both;
+    width: 100%;
+   }
+   .col-3{
+    width: 25%;
+    padding: 5px;
+    float: left;
+   }
+   .col-6{
+    width: 50%;
+    padding: 5px;
+    float: left;
+   }
+   .button{
+    width: 100%;
+    height: 40px;
+    outline: none;
+   }
+   .button.top-button{
+    background: #6d4b7e;
+    border-color: #d6d6d6;
+    color: #fff;
+   }
+   .button.equal{
+    background: #ad3535;
+    color: #fff;
+    font-size: 22px;
+   }
+   .button.operator{
+    background: #20b2aa;
+    border-color: #d6d6d6;
+    color: #fff;
+    font-size: 20px;
+   }
